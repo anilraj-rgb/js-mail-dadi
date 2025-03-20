@@ -14,3 +14,23 @@ console.log(email_list);
 
 const user_email = prompt('Inserisci e-mail')
 
+// verifica della mail dentro la lista
+
+let verify_email = false;
+
+for (let i = 0; i < email_list.length ; i++) {
+
+    if (user_email == email_list [i]) {
+        verify_email = true;
+    }
+}
+
+if (verify_email) {
+    console.log('La tua email è valida, sei ufficialmente invitato alla festa!!');
+    ;
+} else {
+    console.log('La tua mail non è valida, non sei invitato alla festa.');
+    ;
+}
+
+
