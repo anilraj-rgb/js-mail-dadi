@@ -10,4 +10,10 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
  - if else
  - console log */
 
- 
+ // generazione numero giocatore e numero computer
+
+ const userNumber = Math.floor(Math.random() * 7);
+ console.log(`Numero del giocatore: ${userNumber}`);
+
+ const computerNumber = Math.floor(Math.random() * 7);
+ console.log(`Numero del computer: ${computerNumber}`);
