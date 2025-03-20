@@ -17,3 +17,17 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
  const computerNumber = Math.floor(Math.random() * 7);
  console.log(`Numero del computer: ${computerNumber}`);
+
+ // condizioni ed esiti
+
+ if (userNumber > computerNumber){
+    console.log('Congratulazioni hai vinto!!');
+ }
+ else if (computerNumber > userNumber){
+    console.log('Spiacente hai perso, vince il computer');
+ }
+ else{
+    console.log('parità');
+ }
+
+
